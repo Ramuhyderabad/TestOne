@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashbord"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_my_earnings"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Earnings" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add Payment Method" />
+        <item
+            android:id="@+id/nav_slidesh"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transition History" />
+        <item
+            android:id="@+id/nav_ma"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Notification Indox" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite  Earn" />
+            <item
+                android:id="@+id/nav_s"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate Earn" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Update App" />
+        </menu>
+    </item>
+
+</menu>
